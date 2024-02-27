@@ -1,0 +1,86 @@
+body {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+
+
+}
+
+.contacts-item {
+    color: #434455;
+
+
+
+}
+
+.contacts-item:hover {
+    color: #404BBF;
+
+
+}
+
+h3{
+    color: #434455;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 19.6px */
+}
+
+h2{
+    color: #434455;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 19.6px */
+
+}
+
+h1{
+    color: #434455;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 19.6px */
+
+
+}
+
+.button-item{
+    color: #434455;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 19.6px */
+
+
+}
+
+a{
+    color: #434455;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 19.6px */
+
+
+}
+
+p{
+    color: #434455;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 19.6px */
+
+
+}
