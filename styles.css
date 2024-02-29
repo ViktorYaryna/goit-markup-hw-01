@@ -21,7 +21,8 @@ body {
 
 .logo {
     color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.17;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -102,14 +103,13 @@ a {
 
 .button-item {
     color: var(--WHITE, #FFF);
-
-    /* Button Text */
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
+    background-color: #4D5AE5;
 
 
 }
@@ -143,6 +143,12 @@ a {
     line-height: 24px;
     /* 150% */
     letter-spacing: 0.32px;
+}
+
+.title-team-hidden{
+color: #2e2f42;
+
+
 }
 
 .title-team {
