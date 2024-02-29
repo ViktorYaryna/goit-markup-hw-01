@@ -8,13 +8,26 @@ body {
     background-color: #FFFFFF;
 }
 
-.logo {
-    color: #4D5AE5);
+.logo .logo-item-header {
+    color: var(--NAVY-BLUE, #2E2F42);
     font-family: Raleway;
     font-size: 18px;
+    font-style: normal;
     font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.logo {
+    color: var(--IRIS, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    /* 116.667% */
+    letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 
@@ -38,11 +51,13 @@ body {
 }
 
 .logo-item {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: var(--CLOUD, #F4F4FD);
     font-family: Raleway;
     font-size: 18px;
+    font-style: normal;
     font-weight: 700;
     line-height: 21px;
+    /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -68,9 +83,10 @@ a {
 .header_item:hover,
 .header_item:focus {
     color: #404BBF;
+}
 
-    .container {}
-
+.section1 {
+    background-color: #2E2F42;
 }
 
 .section-title {
@@ -112,11 +128,10 @@ a {
 
 .title {
     color: #2E2F42);
-    font-family: Roboto;
+    font-family: "Roboto";
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
-    /* 120% */
     letter-spacing: 0.4px;
 }
 
@@ -154,17 +169,27 @@ a {
 }
 
 .footer {
-    background-color: #2E2F42);
-
+    background-color: #2E2F42;
 }
 
 .footer-text {
-    color: #F4F4FD);
+    color: #F4F4FD;
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    /* 150% */
     letter-spacing: 0.32px;
+}
+
+.title-team2 {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    line-height: 1.11;
 }
