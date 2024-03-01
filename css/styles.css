@@ -2,7 +2,6 @@ body {
     color: #434455;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
     line-height: 140%;
     background-color: #FFFFFF;
@@ -12,7 +11,6 @@ body {
     color:#2E2F42;
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
     line-height: 21px;
     letter-spacing: 0.54px;
@@ -25,7 +23,6 @@ body {
     font-family: "Raleway", sans-serif;
     line-height: 1.17;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
     line-height: 21px;
     letter-spacing: 0.54px;
@@ -46,7 +43,6 @@ body {
     color:#434455;
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
@@ -66,7 +62,6 @@ body {
     color: #F4F4FD;
     font-family: Raleway;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
     line-height: 21px;
     /* 116.667% */
@@ -86,7 +81,6 @@ a {
 .header_item {
     color: #2E2F42;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
@@ -105,7 +99,6 @@ a {
     text-align: center;
     font-family: "Roboto";
     font-size: 56px;
-    font-style: normal;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;
@@ -116,7 +109,6 @@ a {
     color: #FFF;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
@@ -164,7 +156,6 @@ a {
     text-align: center;
     font-family: Roboto;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.72px;
@@ -201,7 +192,6 @@ a {
     text-align: center;
     font-family: Roboto;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.72px;
