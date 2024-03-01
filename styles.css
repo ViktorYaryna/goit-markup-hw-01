@@ -9,7 +9,7 @@ body {
 }
 
 .logo .logo-item-header {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color:#2E2F42;
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
@@ -21,20 +21,20 @@ body {
 }
 
 .logo {
-    color: var(--IRIS, #4D5AE5);
+    color:#4D5AE5;
     font-family: "Raleway", sans-serif;
     line-height: 1.17;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 21px;
-    /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    line-height: 1.17;
 }
 
-.logo .logo-item-header:focus{
-color:#404bbf;
+.logo .logo-item-header:focus {
+    color: #404bbf;
 
 }
 
@@ -43,7 +43,7 @@ color:#404bbf;
 }
 
 .contacts-item {
-    color: var(--SLATE, #434455);
+    color:#434455;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -53,12 +53,17 @@ color:#404bbf;
 }
 
 .contacts-item:hover {
-    color:#404BBF;
+    color: #404BBF;
+
+}
+
+.contacts-item:focus{
+    color: #404bbf;
 
 }
 
 .logo-item {
-    color:#F4F4FD;
+    color: #F4F4FD;
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
@@ -92,7 +97,7 @@ a {
     color: #404BBF;
 }
 
-.section1 {
+.section-1 {
     background-color: #2E2F42;
 }
 
@@ -108,7 +113,7 @@ a {
 }
 
 .button-item {
-    color:#FFF;
+    color: #FFF;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -142,7 +147,7 @@ a {
 }
 
 .title-text {
-    color:#434455;
+    color: #434455;
     font-family: "Roboto";
     font-size: 16px;
     font-weight: 400;
@@ -150,8 +155,8 @@ a {
     letter-spacing: 0.32px;
 }
 
-.title-team-hidden{
-color: #2e2f42;
+.title-team-hidden {
+    color: #2e2f42;
 }
 
 .title-team {
@@ -167,14 +172,14 @@ color: #2e2f42;
 }
 
 .section-3 {
-    background-color:#F4F4FD;
+    background-color: #F4F4FD;
     ;
 
 
 }
 
 .team-item {
-    background:#FFF;
+    background: #FFF;
 
 }
 
@@ -192,7 +197,7 @@ color: #2e2f42;
 }
 
 .title-team2 {
-    color:#2E2F42;
+    color: #2E2F42;
     text-align: center;
     font-family: Roboto;
     font-size: 36px;
