@@ -1,3 +1,13 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0px;
+    padding-left: 0px;
+}
+
 body {
     color: #434455;
     font-family: "Roboto", sans-serif;
@@ -5,10 +15,15 @@ body {
     font-weight: 500;
     line-height: 140%;
     background-color: #FFFFFF;
+    max-width: 1440px;
+}
+
+.section {
+    max-width: 1440px;
 }
 
 .logo .logo-item-header {
-    color:#2E2F42;
+    color: #2E2F42;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
@@ -19,7 +34,7 @@ body {
 }
 
 .logo {
-    color:#4D5AE5;
+    color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     line-height: 1.17;
     font-size: 18px;
@@ -28,6 +43,7 @@ body {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     line-height: 1.17;
+    margin-right: 76px;
 }
 
 .logo .logo-item-header:focus {
@@ -37,10 +53,17 @@ body {
 
 .adress {
     font-style: normal;
+    margin-left: auto;
+}
+
+.contacts {
+    gap: 40px;
+
+
 }
 
 .contacts-item {
-    color:#434455;
+    color: #434455;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
@@ -53,7 +76,7 @@ body {
 
 }
 
-.contacts-item:focus{
+.contacts-item:focus {
     color: #404bbf;
 
 }
@@ -93,6 +116,8 @@ a {
 
 .section-one {
     background-color: #2E2F42;
+    width: 1440px;
+    height: 600px;
 }
 
 .section-title {
@@ -103,6 +128,8 @@ a {
     line-height: 1.07;
     letter-spacing: 1.12px;
     color: #FFFFFF;
+    padding-top: 188px;
+    padding-bottom: 48px;
 }
 
 .button-item {
@@ -113,6 +140,8 @@ a {
     line-height: 24px;
     letter-spacing: 0.64px;
     background-color: #4D5AE5;
+    display: flex;
+    padding: 16px 32px;
 
 
 }
@@ -147,6 +176,14 @@ a {
     letter-spacing: 0.32px;
 }
 
+.title-text-list {
+    display: flex;
+    gap: 24px;
+
+
+
+}
+
 .title-team-hidden {
     color: #2e2f42;
 }
@@ -160,6 +197,7 @@ a {
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+
 }
 
 .section-three {
@@ -176,6 +214,11 @@ a {
 
 .footer {
     background-color: #2E2F42;
+    max-width: 1440px;
+    height: 312px;
+    flex-shrink: 0;
+    margin-top: 120px;
+
 }
 
 .footer-text {
@@ -185,6 +228,7 @@ a {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
+    padding-top: 101px;
 }
 
 .title-team2 {
@@ -197,4 +241,43 @@ a {
     letter-spacing: 0.72px;
     text-transform: capitalize;
     line-height: 1.11;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+
+}
+
+.header-list, .contacts, .container-item, .nav-list {
+    display: flex;
+}
+
+.header-list {
+    gap: 40px;
+
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.title-list {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.section-items {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
