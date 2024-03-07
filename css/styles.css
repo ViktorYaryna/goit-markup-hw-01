@@ -57,9 +57,7 @@ body {
 }
 
 .contacts {
-    gap: 40px;
-
-
+    gap: 40px;;
 }
 
 .contacts-item {
@@ -120,6 +118,20 @@ a {
     height: 600px;
 }
 
+.section-two{
+padding: 120px 0;
+flex-basis: calc((100% - 72px) / 4))
+}
+
+.visually-hidden{
+margin-bottom: 8px;
+
+}
+
+.section-three{
+padding: 120px 0;
+}
+
 .section-title {
     text-align: center;
     font-family: "Roboto";
@@ -140,11 +152,14 @@ a {
     line-height: 24px;
     letter-spacing: 0.64px;
     background-color: #4D5AE5;
-    display: flex;
-    padding: 16px 32px;
-
-
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+cursor: pointer;
 }
+
 
 .button-item:hover {
     background-color: #404BBF;
@@ -165,6 +180,7 @@ a {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
+    text-align: center;
 }
 
 .title-text {
@@ -174,14 +190,26 @@ a {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
+    text-align: center;
 }
 
 .title-text-list {
     display: flex;
     gap: 24px;
+}
 
+.title-list{
+row-gap: 48px;
+}
 
+.section-four{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 
+.title-four{
+    margin-bottom: 8px;
 }
 
 .title-team-hidden {
@@ -197,14 +225,16 @@ a {
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    margin-bottom: 72px;
 
 }
 
+img{
+    display: block;
+}
 .section-three {
     background-color: #F4F4FD;
     ;
-
-
 }
 
 .team-item {
@@ -216,8 +246,13 @@ a {
     background-color: #2E2F42;
     max-width: 1440px;
     height: 312px;
-    flex-shrink: 0;
-    margin-top: 120px;
+    padding-bottom: 100px;
+}
+
+.footer a{
+display: inline-block;
+margin-bottom: 16px;
+
 
 }
 
@@ -247,11 +282,34 @@ a {
     max-width: 1440px;
     padding: 0px 15px;
     margin: 0 auto;
+    padding: 120px 0;
+}
+
+.header{
+    border-bottom: 1px solid  #E7E9FC;
+    width: 1158px;
+    padding: 24px 0;
+}
+
+.section-one{
+    padding-bottom: 188px;
+}
+
+.section-three{
+    border-radius: 0px 0px 4px 4px;
+    flex-basis: calc((100% - 72px) / 4)
+}
+
+.list-staff{
+padding: 32px 0;
+text-align: center;
+
 }
 
 .header-container {
     display: flex;
-
+    background: #FFF;
+    padding: 24px 0;
 }
 
 .header-list, .contacts, .container-item, .nav-list {
@@ -280,4 +338,10 @@ a {
 .section-items {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.nav-list{
+align-items: center;
+
+
 }
