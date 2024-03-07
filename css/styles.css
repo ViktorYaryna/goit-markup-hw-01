@@ -120,11 +120,13 @@ a {
 
 .section-two{
 padding: 120px 0;
-flex-basis: calc((100% - 72px) / 4))
+flex-basis: calc((100% - 72px) / 4);
 }
 
 .visually-hidden{
 margin-bottom: 8px;
+position: fixed;
+transform: scale(0);
 
 }
 
@@ -181,6 +183,7 @@ cursor: pointer;
     line-height: 24px;
     letter-spacing: 0.4px;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .title-text {
@@ -298,6 +301,11 @@ margin-bottom: 16px;
 .section-three{
     border-radius: 0px 0px 4px 4px;
     flex-basis: calc((100% - 72px) / 4)
+}
+
+.section-four{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 
 .list-staff{
