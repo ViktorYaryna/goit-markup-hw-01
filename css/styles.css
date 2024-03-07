@@ -92,6 +92,8 @@ body {
 
 ul, ol {
     list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
 
 }
 
@@ -144,6 +146,8 @@ padding: 120px 0;
     color: #FFFFFF;
     padding-top: 188px;
     padding-bottom: 48px;
+    max-width: 496px;
+    margin: 0 auto;
 }
 
 .button-item {
@@ -203,6 +207,7 @@ cursor: pointer;
 
 .title-list{
 row-gap: 48px;
+
 }
 
 .section-four{
@@ -234,6 +239,8 @@ row-gap: 48px;
 
 img{
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 .section-three {
     background-color: #F4F4FD;
@@ -291,11 +298,12 @@ margin-bottom: 16px;
 .header{
     border-bottom: 1px solid  #E7E9FC;
     width: 1158px;
-    padding: 24px 0;
+    padding-bottom: 24px;
+    padding: 0 15px;
 }
 
 .section-one{
-    padding-bottom: 188px;
+    padding-bottom: 188px 0;
 }
 
 .section-three{
