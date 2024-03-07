@@ -57,7 +57,8 @@ body {
 }
 
 .contacts {
-    gap: 40px;;
+    gap: 40px;
+    ;
 }
 
 .contacts-item {
@@ -120,20 +121,20 @@ a {
     height: 600px;
 }
 
-.section-two{
-padding: 120px 0;
-flex-basis: calc((100% - 72px) / 4);
+.section-two {
+    padding: 120px 0;
+    flex-basis: calc((100% - 72px) / 4);
 }
 
-.visually-hidden{
-margin-bottom: 8px;
-position: fixed;
-transform: scale(0);
+.visually-hidden {
+    margin-bottom: 8px;
+    position: fixed;
+    transform: scale(0);
 
 }
 
-.section-three{
-padding: 120px 0;
+.section-three {
+    padding: 120px 0;
 }
 
 .section-title {
@@ -163,7 +164,7 @@ padding: 120px 0;
     height: 56px;
     border: none;
     border-radius: 4px;
-cursor: pointer;
+    cursor: pointer;
 }
 
 
@@ -205,18 +206,18 @@ cursor: pointer;
     gap: 24px;
 }
 
-.title-list{
-row-gap: 48px;
+.title-list {
+    row-gap: 48px;
 
 }
 
-.section-four{
+.section-four {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
 
-.title-four{
+.title-four {
     margin-bottom: 8px;
 }
 
@@ -237,11 +238,12 @@ row-gap: 48px;
 
 }
 
-img{
+img {
     display: block;
     max-width: 100%;
     height: auto;
 }
+
 .section-three {
     background-color: #F4F4FD;
     ;
@@ -259,9 +261,9 @@ img{
     padding-bottom: 100px;
 }
 
-.footer a{
-display: inline-block;
-margin-bottom: 16px;
+.footer a {
+    display: inline-block;
+    margin-bottom: 16px;
 
 
 }
@@ -293,32 +295,41 @@ margin-bottom: 16px;
     padding: 0px 15px;
     margin: 0 auto;
     padding: 120px 0;
+    padding-right: 15px;
 }
 
-.header{
-    border-bottom: 1px solid  #E7E9FC;
+.staff-items {
+    flex-basis: calc((100% - 72px)/4);
+    border-radius: 0px 0px 4px 4px;
+    padding: 32px 0;
+}
+
+.header {
+    border-bottom: 1px solid #E7E9FC;
     width: 1158px;
     padding-bottom: 24px;
     padding: 0 15px;
 }
 
-.section-one{
+.section-one {
     padding-bottom: 188px 0;
 }
 
-.section-three{
+.section-three {
     border-radius: 0px 0px 4px 4px;
     flex-basis: calc((100% - 72px) / 4)
 }
 
-.section-four{
+.section-four {
+    padding-top: 120px;
+    row-gap: 48px;
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
+    border: 1px solid #e7e9fc; 
 }
 
-.list-staff{
-padding: 32px 0;
-text-align: center;
+.list-staff {
+    padding: 32px 0;
+    text-align: center;
 
 }
 
@@ -356,8 +367,8 @@ text-align: center;
     padding-bottom: 120px;
 }
 
-.nav-list{
-align-items: center;
+.nav-list {
+    align-items: center;
 
 
 }
