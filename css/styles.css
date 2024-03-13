@@ -16,10 +16,11 @@ body {
     line-height: 140%;
     background-color: #FFFFFF;
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 .section-one {
-    padding-bottom: 188px;
+    padding-bottom: 188px 0px;
 
 }
 
@@ -109,9 +110,10 @@ a {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
+    padding: 24px 0;
 }
 
-.header{
+.header {
     width: 1158px;
     padding: 0 15px;
     padding: 24px 0;
@@ -132,7 +134,7 @@ a {
 
 .section-two {
     padding: 120px 0;
-    width: calc((100% - 3 * 24px) / 4)
+
 }
 
 .visually-hidden {
@@ -322,10 +324,7 @@ img {
     border-bottom: 1px solid #E7E9FC;
     width: 1158px;
     padding-bottom: 24px;
-    padding: 0 15px;
-    width: 1158px;
-    padding: 0 15px;
-    padding: 24px 0;
+    padding-right: 15px;
 
 }
 
@@ -377,8 +376,9 @@ img {
     gap: 24px;
     padding-top: 120px;
     padding-bottom: 120px;
-    calc :((100% - 72px) / 4);
-    border-top-right-radius: 4px; border-bottom-left-radius:4px;
+    calc: ((100% - 72px) / 4);
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
 
 .title-list {
@@ -395,6 +395,7 @@ img {
 
 .nav-list {
     align-items: center;
+
 
 
 }
