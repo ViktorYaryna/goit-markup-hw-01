@@ -306,11 +306,13 @@ img {
 
 .header .container {
     display: flex;
-    border-bottom: 1px solid #e7e9fc;
 }
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding: 0 15px 0 15px;
 }
 
 .section-one {
@@ -341,8 +343,6 @@ img {
 
 .header-list {
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .contacts {
