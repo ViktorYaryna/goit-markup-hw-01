@@ -114,7 +114,6 @@ a {
     padding: 24px 0;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
     width: 1158px;
 }
 
@@ -328,7 +327,6 @@ img {
     padding-bottom: 24px;
     padding-right: 15px;
     margin: 0 auto;
-
 }
 
 .section-one {
@@ -354,12 +352,11 @@ img {
     padding-top: 32px;
     padding-bottom: 32px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .header-container {
     display: flex;
-    width: 1158px;
-    margin: 0 auto;
 }
 
 .header-list, .contacts, .container-item, .nav-list {
@@ -389,7 +386,6 @@ img {
     row-gap: 48px;
     margin-bottom: 0;
     border-top: none;
-    margin: 0 auto;
 }
 
 .section-items {
