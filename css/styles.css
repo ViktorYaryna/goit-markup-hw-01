@@ -91,7 +91,6 @@ body {
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
-    /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -120,17 +119,6 @@ a {
     margin: 0 auto;
 }
 
-.header{
-    width: 1158px;
-    padding: 0 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-
-
-
-}
-
 .header_item:hover,
 .header_item:focus {
     color: #404BBF;
@@ -144,8 +132,9 @@ a {
     padding-top: 188px;
 }
 
-.section-two {
+.section-two{
     padding: 120px 0;
+    width: calc((100% - 72px) / 4);
 
 }
 
@@ -161,12 +150,6 @@ a {
     clip: rect(0 0 0 0);
     overflow: hidden;
 
-}
-
-.section-three {
-    padding: 120px 0;
-    flex-basis: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
 }
 
 .section-title {
@@ -248,7 +231,6 @@ a {
 .title-text-list {
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
 }
 
 .title-list li {
@@ -261,14 +243,15 @@ a {
 .section-four .container {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
-    border-top: none;
     padding-top: 120px;
     padding-bottom: 120px;
+
 
 }
 
 .title-four {
     margin-bottom: 8px;
+    padding-top: 120px 0;
 }
 
 .title-team-hidden {
@@ -296,7 +279,10 @@ img {
 
 .section-three {
     background-color: #F4F4FD;
-    ;
+    padding-bottom: 120px;
+    padding: 120px 0;
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-item {
@@ -365,23 +351,6 @@ img {
 
 }
 
-.section-one {
-    padding-bottom: 188px;
-}
-
-.section-three {
-    border-radius: 0px 0px 4px 4px;
-    flex-basis: calc((100% - 72px) / 4)
-}
-
-.section-four {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    padding-bottom: 120px;
-    padding-top: 120px;
-    
-}
-
 .list-staff {
     padding: 32px 0;
     text-align: center;
@@ -396,6 +365,9 @@ img {
     background: #FFF;
     padding: 24px 0;
     width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .header-list, .contacts, .container-item, .nav-list {
@@ -410,8 +382,6 @@ img {
 .team-list {
     display: flex;
     gap: 24px;
-    padding-top: 120px;
-    padding-bottom: 120px;
     calc: ((100% - 72px) / 4);
     border-top-right-radius: 4px;
     border-bottom-left-radius: 4px;
@@ -426,8 +396,6 @@ img {
 }
 
 .section-items {
-    padding-top: 120px;
-    padding-bottom: 120px;
     width: calc((100% - 72px) / 4);
 }
 
