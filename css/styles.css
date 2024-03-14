@@ -344,6 +344,7 @@ img {
     width: 1158px;
     padding-bottom: 24px;
     padding-right: 15px;
+    margin: 0 auto;
 
 }
 
@@ -360,9 +361,10 @@ img {
 .section-four {
     border-top: none;
     padding: 120px 0 120px 0;
-    border: 1px solid #e7e9fc;
     width: 1158px;
     margin: 0 auto;
+    width: calc((100% - 48px) / 3);
+    row-gap: 48px;
 }
 
 .section-four .container li {
@@ -378,6 +380,7 @@ img {
 .header-container {
     display: flex;
     width: 1158px;
+    margin: 0 auto;
 }
 
 .header-list, .contacts, .container-item, .nav-list {
