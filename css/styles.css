@@ -98,7 +98,7 @@ a {
     text-decoration: none
 }
 
-.header_item {
+.header_item{
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
@@ -110,16 +110,12 @@ a {
     width: 1158px;
 }
 
-.header {
+.header, header-container {
     padding: 24px 0;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
     width: 1158px;
-}
-
-.header-container {
-    margin: 0 auto;
 }
 
 .header_item:hover,
@@ -350,6 +346,7 @@ img {
     width: 1158px;
     margin: 0 auto;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 title-list-item{
@@ -394,9 +391,11 @@ title-list-item{
     display: flex;
     margin: 0 auto;
     flex-wrap: wrap;
-    row-gap: 24px;
+    gap: 24px;
+    row-gap: 48px;
     margin-bottom: 0;
     border-top: none;
+    width: calc((100% - 48px) / 3);
 }
 
 .title-list li{
@@ -413,4 +412,8 @@ title-list-item{
 
 .nav-list {
     align-items: center;
+}
+
+.team-item-one{
+    border-radius: 0px 0px 4px 4px;
 }
