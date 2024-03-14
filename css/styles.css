@@ -98,8 +98,8 @@ body {
 
 ul, ol {
     list-style-type: none;
-    margin: 0px;
-    padding-left: 0px;
+    margin: 0;
+    padding-left: 0;
 
 
 }
@@ -119,13 +119,13 @@ a {
     padding-bottom: 24px;
 }
 
-.header {
+.header, .header-container {
     width: 1158px;
-    padding: 0 15px;
     padding: 24px 0;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+
 
 }
 
@@ -148,9 +148,16 @@ a {
 }
 
 .visually-hidden {
-    margin-bottom: 8px;
-    position: fixed;
-    transform: scale(0);
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 
 }
 
@@ -239,6 +246,7 @@ a {
 .title-text-list {
     display: flex;
     gap: 24px;
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
 .title-list {
@@ -250,7 +258,9 @@ a {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    padding: 120px 0 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    row-gap: 48px;
 
 }
 
@@ -333,6 +343,7 @@ img {
     margin: 0 auto;
     padding: 120px 0;
     padding-right: 15px;
+    padding-top: 120px;
 }
 
 .staff-items {
@@ -359,8 +370,6 @@ img {
 }
 
 .section-four {
-    padding-top: 120px;
-    row-gap: 48px;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     padding-bottom: 120px;
@@ -407,6 +416,7 @@ img {
     margin: 0 auto;
     flex-wrap: wrap;
     gap: 24px;
+    margin-bottom: 0
 }
 
 .section-items {
@@ -421,5 +431,9 @@ img {
 .title-list-item{
     margin-bottom: 48px;
     width: calc((100% - 48px) / 3);
+    row-gap: 48px;
+    margin-bottom: 0;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 
 }
