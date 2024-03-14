@@ -122,10 +122,11 @@ a {
 
 .header{
     width: 1158px;
-    padding: 24px 0;
+    padding: 0 15px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+
 
 
 }
@@ -307,7 +308,10 @@ img {
     background-color: #2E2F42;
     max-width: 1440px;
     height: 312px;
-    padding: 100px 0 100px;
+    padding-bottom: 100px;
+    padding-top: 100;
+    padding-left: 156px;
+    padding: 100px 0;
 }
 
 .footer a {
@@ -375,11 +379,6 @@ img {
     border: 1px solid #e7e9fc;
     padding-bottom: 120px;
     padding-top: 120px;
-    row-gap: 48px; 
-    margin: 0 auto;
-    width: calc((100% - 48px) / 3);
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
     
 }
 
@@ -436,7 +435,7 @@ img {
     align-items: center;
 }
 
-.title-list-item{
+.title-list-item ul{
     margin-bottom: 48px;
     width: calc((100% - 48px) / 3);
     row-gap: 48px;
