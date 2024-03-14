@@ -306,12 +306,12 @@ img {
 
 .header .container {
     display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-    padding-top: 24px;
-    padding-bottom: 24px;
     padding: 0 15px 0 15px;
 }
 
@@ -346,8 +346,6 @@ img {
 }
 
 .contacts {
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .team-list {
