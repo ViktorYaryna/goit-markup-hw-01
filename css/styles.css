@@ -312,7 +312,7 @@ img {
     border-bottom: 1px solid #e7e9fc;
 }
 
-team-item-one {
+.header_item {
     padding: 24px 0 24px;
 
 }
@@ -345,10 +345,6 @@ team-item-one {
 
 .header-list {
     gap: 40px;
-}
-
-.contacts {
-    padding: 24px 0;
 }
 
 .team-list {
