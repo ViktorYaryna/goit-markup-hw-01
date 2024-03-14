@@ -365,13 +365,15 @@ img {
 }
 
 .section-four {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    padding-bottom: 120px;
     border-top: none;
     padding-top: 120px;
     padding-bottom: 120px;
-    
+}
+
+.section-four .container ul{
+    border: 1px solid #e7e9fc;
+    padding: 32px 16px;
+    row-gap: 48px;
 }
 
 .list-staff {
