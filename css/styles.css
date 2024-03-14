@@ -107,7 +107,6 @@ a {
     padding: 24px 0;
     padding-top: 24px;
     padding-bottom: 24px;
-    margin: 0 auto;
     width: 1158px;
 }
 
@@ -117,8 +116,10 @@ a {
     padding-right: 15px;
     margin: 0 auto;
     width: 1158px;
+}
 
-
+.header-container {
+    margin: 0 auto;
 }
 
 .header_item:hover,
@@ -363,10 +364,12 @@ img {
     padding: 120px 0 120px 0;
     width: 1158px;
     margin: 0 auto;
+    border: 1px solid #e7e9fc;
 }
 
 .section-four .container li {
-    row-gap: 48px;
+    margin-bottom: 48px;
+
 }
 
 .list-staff {
@@ -417,7 +420,9 @@ img {
     align-items: center;
 }
 
-.title-list-item{
-margin-bottom: 48px;
-margin-bottom: 0;
+.title-list-item {
+    margin-bottom: 48px;
+    margin-bottom: 0;
+    row-gap: 48px;
+    border: 1px solid #e7e9fc;
 }
