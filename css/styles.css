@@ -307,11 +307,7 @@ img {
 .header .container {
     border-bottom: 1px solid #e7e9fc;
     display: flex;
-    padding: 24px 0 24px;
-    }
-
-
-
+}
 
 .section-one {
     padding-bottom: 188px;
@@ -341,7 +337,11 @@ img {
 
 .header-list {
     gap: 40px;
+    padding: 24px 0 24px;
+}
 
+.contacts {
+    padding: 24px 0 24px;
 }
 
 .team-list {
