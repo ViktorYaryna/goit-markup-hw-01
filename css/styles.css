@@ -17,6 +17,9 @@ body {
     background-color: #FFFFFF;
     max-width: 1440px;
     margin: 0 auto;
+    border: 1px solid #e7e9fc;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .section-one {
@@ -98,6 +101,7 @@ ul, ol {
     margin: 0px;
     padding-left: 0px;
 
+
 }
 
 a {
@@ -111,12 +115,16 @@ a {
     line-height: 24px;
     letter-spacing: 0.32px;
     padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header {
     width: 1158px;
     padding: 0 15px;
     padding: 24px 0;
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
 
@@ -130,6 +138,7 @@ a {
     width: 1440px;
     height: 600px;
     padding-bottom: 188px;
+    padding-top: 188px;
 }
 
 .section-two {
@@ -158,10 +167,10 @@ a {
     line-height: 1.07;
     letter-spacing: 1.12px;
     color: #FFFFFF;
-    padding-top: 188px;
     padding-bottom: 48px;
     max-width: 496px;
     margin: 0 auto;
+    
 }
 
 .button-item {
