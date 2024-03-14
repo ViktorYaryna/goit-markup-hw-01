@@ -306,8 +306,7 @@ img {
 
 .header .container {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 }
 
 .header {
@@ -346,6 +345,7 @@ img {
 }
 
 .contacts {
+    padding: 24px 0 24px;
 }
 
 .team-list {
