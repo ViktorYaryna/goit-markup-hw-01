@@ -110,13 +110,6 @@ a {
     width: 1158px;
 }
 
-.header, header-container {
-    padding: 24px 0;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 1158px;
-}
-
 .header_item:hover,
 .header_item:focus {
     color: #404BBF;
@@ -148,10 +141,6 @@ a {
 
 .section-three {
     padding: 120px 0;
-    flex-basis: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
-    max-width: 1158px;
-    margin: 0 auto;
 }
 
 .section-title {
@@ -318,15 +307,16 @@ img {
 
 .header, header-container {
     border-bottom: 1px solid #E7E9FC;
-    width: 1158px;
     padding-bottom: 24px;
-    padding-right: 15px;
     margin: 0 auto;
+    padding: 24px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1158px;
 }
 
 .section-one {
     padding-bottom: 188px;
-    margin: 0 auto;
 }
 
 .section-three {
