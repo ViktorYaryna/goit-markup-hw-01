@@ -104,9 +104,6 @@ a {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
-    padding: 24px 0;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header_item:hover,
@@ -309,8 +306,6 @@ img {
 
 .header-container {
     display: flex;
-    padding: 24px 0;
-    padding: 0 15px;
     width: 1158px;
     margin: 0 auto;
     padding-top: 24px;
@@ -342,7 +337,6 @@ img {
 
 .header-list, .contacts, .container-item, .nav-list {
     display: flex;
-
 }
 
 .header-list {
