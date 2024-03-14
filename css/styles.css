@@ -125,6 +125,7 @@ a {
     padding: 24px 0;
     padding-left: 15px;
     padding-right: 15px;
+    margin: 0 auto;
 
 }
 
@@ -222,6 +223,17 @@ a {
     line-height: 24px;
     letter-spacing: 0.32px;
     text-align: center;
+}
+
+.title-text item-one{
+    width: calc((100% - 72px) / 4);
+}
+
+.team-item-one{
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+
+
 }
 
 .title-text-list {
@@ -351,8 +363,8 @@ img {
     row-gap: 48px;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
+    padding-bottom: 120px;
+    
 }
 
 .list-staff {
@@ -404,7 +416,10 @@ img {
 
 .nav-list {
     align-items: center;
+}
 
-
+.title-list-item{
+    margin-bottom: 48px;
+    width: calc((100% - 48px) / 3);
 
 }
