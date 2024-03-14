@@ -1,3 +1,8 @@
+*{
+    margin: 0 auto;
+    row-gap: 48px;
+}
+
 h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0px;
     padding-left: 0px;
@@ -10,7 +15,6 @@ body {
     font-weight: 500;
     line-height: 140%;
     background-color: #FFFFFF;
-    margin: 0 auto;
 }
 
 .section-one {
@@ -408,7 +412,14 @@ img {
     margin: 0 auto;
     flex-wrap: wrap;
     gap: 24px;
-    margin-bottom: 0
+    margin-bottom: 0;
+    
+}
+
+.title-list:first-child{
+    width: calc((100% - 48px) / 3);
+
+
 }
 
 .section-items {
@@ -423,7 +434,5 @@ img {
 
 .title-list-item {
     row-gap: 48px;
-    border: 1px solid #e7e9fc;
     border-top: none;
-    width: calc((100% - 48px) / 3);
 }
