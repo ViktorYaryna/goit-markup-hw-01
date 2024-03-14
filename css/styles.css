@@ -363,18 +363,15 @@ img {
     padding: 120px 0 120px 0;
     width: 1158px;
     margin: 0 auto;
-    width: calc((100% - 48px) / 3);
-    row-gap: 48px;
 }
 
 .section-four .container li {
     row-gap: 48px;
-    border: 1px solid #e7e9fc;
-    width: calc((100% - 48px) / 3);
 }
 
 .list-staff {
     padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -418,4 +415,9 @@ img {
 
 .nav-list {
     align-items: center;
+}
+
+.title-list-item{
+margin-bottom: 48px;
+margin-bottom: 0;
 }
