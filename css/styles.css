@@ -257,15 +257,6 @@ a {
 
 }
 
-.section-four .container {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    padding-top: 120px;
-    padding-bottom: 120px;
-
-}
-
 .title-four {
     margin-bottom: 8px;
 }
@@ -377,6 +368,9 @@ img {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     padding-bottom: 120px;
+    border-top: none;
+    padding-top: 120px;
+    padding-bottom: 120px;
     
 }
 
@@ -394,6 +388,9 @@ img {
     background: #FFF;
     padding: 24px 0;
     width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .header-list, .contacts, .container-item, .nav-list {
