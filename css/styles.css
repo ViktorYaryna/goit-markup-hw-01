@@ -242,15 +242,11 @@ a {
 
 .section-four{
     padding: 32px 16px;
-}
-
-.sectionfour{
-    padding: 32px 16px;
     border: 1px solid #e7e9fc;
-    margin: 0 auto;
-    row-gap: 48px;
     padding-top: 120px;
     padding-bottom: 120px;
+    margin: 0 auto;
+
 
 }
 
@@ -339,6 +335,7 @@ img {
     margin: 0 auto;
     padding: 120px 0;
     padding-right: 15px;
+    padding-top: 120px;
 }
 
 .staff-items {
@@ -347,12 +344,23 @@ img {
     padding: 32px 0;
 }
 
+.header, header-container {
+    border-bottom: 1px solid #E7E9FC;
+    width: 1158px;
+    padding-bottom: 24px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+
+}
+
 .list-staff {
     padding: 32px 0;
     text-align: center;
     margin-bottom: 48px;
     margin-bottom: 0;
     width: calc((100% - 48px) / 3);
+
 }
 
 .header-container {
@@ -363,7 +371,6 @@ img {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-
 }
 
 .header-list, .contacts, .container-item, .nav-list {
@@ -372,7 +379,6 @@ img {
 
 .header-list {
     gap: 40px;
-
 
 }
 
