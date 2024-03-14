@@ -240,13 +240,11 @@ a {
 
 }
 
-.section-four .container {
+.section-four{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
-    padding-top: 120px;
-    padding-bottom: 120px;
-
-
+    margin: 0 auto;
+    row-gap: 48px;
 }
 
 .title-four {
@@ -335,6 +333,8 @@ img {
     padding: 120px 0;
     padding-right: 15px;
     padding-top: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .staff-items {
@@ -348,7 +348,8 @@ img {
     width: 1158px;
     padding-bottom: 24px;
     padding-right: 15px;
-
+    padding-left: 15px;
+    margin: 0 auto;
 }
 
 .list-staff {
@@ -376,6 +377,7 @@ img {
 
 .header-list {
     gap: 40px;
+
 
 }
 
