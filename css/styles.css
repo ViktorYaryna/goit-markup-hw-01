@@ -307,13 +307,14 @@ img {
     background-color: #FFF;
 }
 
-.header, header-container {
+.header-container {
     border-bottom: 1px solid #E7E9FC;
     padding-bottom: 24px;
     padding: 24px 0;
     padding-left: 15px;
     padding-right: 15px;
     width: 1158px;
+    margin: 0 auto;
 }
 
 .section-one {
