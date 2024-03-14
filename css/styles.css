@@ -242,6 +242,7 @@ a {
     display: flex;
     gap: 24px;
     width: calc((100% - 72px) / 4);
+    margin: 0 auto;
 }
 
 .title-list li {
@@ -327,9 +328,7 @@ img {
 }
 
 .container {
-    max-width: 1158px;
     padding: 0px 15px;
-    margin: 0 auto;
 }
 
 .staff-items {
@@ -425,7 +424,4 @@ img {
 
 .nav-list {
     align-items: center;
-}
-
-.title-list-item {
 }
