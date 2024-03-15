@@ -205,6 +205,10 @@ a {
     letter-spacing: 0.32px;
 }
 
+.staff-items .title-text{
+    text-align: center;
+    
+}
 .title-text-list {
     display: flex;
     gap: 24px;
