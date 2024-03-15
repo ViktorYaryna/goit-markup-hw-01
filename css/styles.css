@@ -147,10 +147,12 @@ a {
     line-height: 1.07;
     letter-spacing: 1.12px;
     color: #FFFFFF;
-    padding-bottom: 48px;
     max-width: 496px;
-    margin: 0 auto;
+    margin: 0 auto 48px;
+}
 
+.title-text-list .title{
+    text-align: left;
 }
 
 .button-item {
@@ -201,7 +203,6 @@ a {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
-    text-align: center;
 }
 
 .title-text-list {
@@ -253,7 +254,6 @@ img {
 
 .footer {
     background-color: #2E2F42;
-    width: 1158px;
     margin: 0 auto;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -262,8 +262,6 @@ img {
 
 .footer a {
     display: inline-block;
-    padding-top: 101px;
-    padding-left: 156px;
     margin-bottom: 16px;
 
 }
@@ -275,7 +273,7 @@ img {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
-    padding-left: 156px;
+    width: 264px;
 
 }
 
@@ -302,6 +300,22 @@ img {
     border-radius: 0px 0px 4px 4px;
     padding: 32px 0;
     background-color: #FFF;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
+Show 1 more color
+
+Ellipse
+Component instance
+
+Ellipse
+Component instance
+
+Ellipse
+Component instance
+
+img
+Image · 2,000 x 2,722
+
 }
 
 .header .container {
@@ -373,4 +387,26 @@ img {
 
 .team-item-one {
     border-radius: 0px 0px 4px 4px;
+}
+
+.icon-container {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 8px;
+}
+
+.icon-item {
+    width: 264px;
+    height: 112px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+    background: var(--CLOUD, #F4F4FD);
+}
+
+.image-icons{
+padding-left: 100px;
+padding-top: 24px;
+
 }
