@@ -112,9 +112,16 @@ a {
 }
 
 .section-one {
-    background-color: #2E2F42;
+    background: (--GREY, rgba(46, 47, 66, 0.70));
     padding-bottom: 188px;
     padding-top: 188px;
+    background-image: url(../images/background/people-office\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1440px;
+    margin: 0 auto;
+
 }
 
 .section-two {
@@ -151,7 +158,7 @@ a {
     margin: 0 auto 48px;
 }
 
-.title-text-list .title{
+.title-text-list .title {
     text-align: left;
 }
 
@@ -205,10 +212,11 @@ a {
     letter-spacing: 0.32px;
 }
 
-.staff-items .title-text{
+.staff-items .title-text {
     text-align: center;
-    
+
 }
+
 .title-text-list {
     display: flex;
     gap: 24px;
@@ -306,20 +314,7 @@ img {
     background-color: #FFF;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 
-Show 1 more color
-
-Ellipse
-Component instance
-
-Ellipse
-Component instance
-
-Ellipse
-Component instance
-
-img
-Image · 2,000 x 2,722
-
+    Show 1 more color Ellipse Component instance Ellipse Component instance Ellipse Component instance img Image · 2, 000 x 2, 722
 }
 
 .header .container {
@@ -333,6 +328,9 @@ Image · 2,000 x 2,722
 .header_item {
     padding-top: 24px;
     padding-bottom: 24px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -409,8 +407,48 @@ Image · 2,000 x 2,722
     background: var(--CLOUD, #F4F4FD);
 }
 
-.image-icons{
-padding-left: 100px;
-padding-top: 24px;
+.image-icons {
+    padding-left: 100px;
+    padding-top: 24px;
+}
 
+.social-icons-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding-top: 8px;
+}
+
+.social-icons-items {
+    margin: 0 auto;
+    margin-top: 8px;
+    width: 40px;
+    height: 40px;
+}
+
+.link-icon {
+    fill: var(--IRIS, #4D5AE5);
+}
+
+.icon-team {
+    fill: #f4f4fd;
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-team:hover,
+.icon-team:focus {
+    background-color: #404bbf;
+}
+
+.svg-team{
+    color: rgba(244, 244, 253, 1);
 }
